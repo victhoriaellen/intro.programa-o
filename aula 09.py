@@ -1,7 +1,11 @@
-numeros_encontrados = []
-
+import time
 for numero in range(1000, 2001):
     if numero % 11 == 5:
-        numeros_encontrados.append(numero)
+        print(f"numero é: {numero}")
+        time.sleep(1)
 
-print(f"divi: {numeros_encontrados}")
+numero = 1000
+
+while numero <= 2000:
+    if numero % 11 == 5:
+        print(f'o numero é {numero}')
