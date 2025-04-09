@@ -12,6 +12,7 @@ ciclos = 1
 while ciclos <= 10:
     resultado = numero * ciclos
     print(f"{numero} x {m}= {resultado}")
+    ciclos +=1
 
 
 
